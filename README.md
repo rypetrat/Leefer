@@ -7,5 +7,6 @@ api call: https://cannlytics.com/api/data/strains
 
 insp: https://www.leafly.com/
 
-Frontend: React ^&
+Frontend: React
+
 Backend: .txt (insane ik)
