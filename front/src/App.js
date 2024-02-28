@@ -6,7 +6,7 @@ function App() {
       <header className="App-text">
 
         <>
-          Hey team welcome to the frontend of our Health Diagnostic tool!
+          Weed dem boys
         </>
 
       </header>
