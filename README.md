@@ -9,7 +9,7 @@ insp: https://www.leafly.com/
 
 Frontend: React
 
-Backend: .txt (insane ik)
+Backend: Node.js / Express (insane ik)
 
 
 Reference Materials for api call: https://www.freecodecamp.org/news/make-api-calls-in-javascript/
