@@ -15,10 +15,10 @@ Reference Materials for api call: https://www.freecodecamp.org/news/make-api-cal
 
 https://cannlytics.com/api/data/strains response JSON data/fields:
 
-- success
-- data
+- success (OK or error)
+- data (contains all the following)
 
-// strain id, strain name, description, keywords, image
+- strain id, strain name, description, keywords, image
 
 data[0].id
 
@@ -31,19 +31,19 @@ data[26].keywords
 data[10].image_url
 
 
-// effects and aromas
+- effects and aromas
 
 data[36].potential_effects
 
 data[7].potential_aromas
 
 
-// total cannabinoid
+- total cannabinoid
 
 data[15].total_cannabinoids
 
 
-// terpenes
+- terpenes
 
 data[1].carene
 
@@ -92,7 +92,7 @@ data[44].terpinenes
 data[45].beta_pinene
 
 
-// cbd and the like
+- cbd and the like
 
 data[16].total_cbd
 
@@ -112,7 +112,7 @@ data[46].cbc
 
 
 
-// thc and the like
+- thc and the like
 
 data[17].total_thc
 
@@ -125,7 +125,7 @@ data[41].thca
 data[47].delta_9_thc
 
 
-// dont really care
+- dont really care
 
 data[5].updated_at
 
