@@ -20,9 +20,13 @@ https://cannlytics.com/api/data/strains response JSON data/fields:
 // strain id, strain name, description, keywords, image
 
 data[0].id
+
 data[37].strain_name
+
 data[34].description
+
 data[26].keywords
+
 data[10].image_url
 
 
