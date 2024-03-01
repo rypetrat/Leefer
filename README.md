@@ -17,6 +17,7 @@ https://cannlytics.com/api/data/strains response JSON data/fields:
 
 - success
 - data
+
 // strain id, strain name, description, keywords, image
 
 data[0].id
