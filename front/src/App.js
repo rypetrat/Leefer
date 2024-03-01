@@ -1,6 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 
+function Navbar() {
+  return (
+    <nav>
+      <ul>
+        <li><a href="./">Home</a></li>
+        <li><a href="Strains">Strain Catalog</a></li>
+        <li><a href= "StrainBot">Find Your Perfect Strain</a></li>
+        <li><a href= "DispMap">Dispensaries Near You</a></li>
+        <li><a href="About">About Us</a></li>
+      </ul>
+    </nav>
+  );
+}
+
+
 function App() {
   const [message, setMessage] = useState('');
 
@@ -23,6 +38,7 @@ function App() {
 
   return (
     <div className="App">
+      <Navbar />
       <header className="App-text">
         <h1>Weed dem boys</h1>
         <p>Message from the server right out of miller grove: {message}</p>
