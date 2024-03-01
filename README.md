@@ -13,10 +13,13 @@ Backend: Node.js / Express / axios
 
 Reference Materials for api call: https://www.freecodecamp.org/news/make-api-calls-in-javascript/
 
+*******************************************************************************************************
+
 https://cannlytics.com/api/data/strains response JSON data/fields:
 
-- success (OK or error)
-- data (contains all the following)
+// success (OK or error) \\\
+
+// data (contains all the following) \\\
 
 - strain id, strain name, description, keywords, image
 
