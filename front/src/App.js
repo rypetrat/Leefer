@@ -5,21 +5,20 @@ function App() {
   const [message, setMessage] = useState('');
 
   useEffect(() => {
-    const apiUrl = 'http://localhost:5000/api/data';
-
-    fetch(apiUrl)
-      .then(response => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('http://localhost:5000/api/data');
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
-        return response.json(); // Parse response as JSON
-      })
-      .then(data => {
-        setMessage(data.text); // Set message to the value of the 'text' field in the JSON
-      })
-      .catch(error => {
+        const data = await response.json();
+        setMessage(data.text);
+      } catch (error) {
         console.error('Error:', error);
-      });
+      }
+    };
+
+    fetchData();
   }, []);
 
   return (
