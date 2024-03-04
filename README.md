@@ -142,3 +142,9 @@ data[42].updated_by
 
 data[48].model_stats
 
+*******************************************************************************************************
+  Mongo DB user/pass (Leefer)
+rypetrat, O6MteVfIfRdlD2VB
+
+https://cloud.mongodb.com/v2/65e624b277738351ea497d81#/overview
+
